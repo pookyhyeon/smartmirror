@@ -13,7 +13,7 @@ from threading import Thread
 from threading import Timer
 from check_cam_fps import check_fps
 import make_train_data as mtd
-import light_remover as lr
+import light as lr
 import ringing_alarm as alarm
 import serial
 import ringing_alarm 

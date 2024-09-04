@@ -1,16 +1,8 @@
-
-# coding: utf-8
-
-# In[15]:
-
-
+# KNN 알고리즘 이용 
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 from sklearn import metrics
-#%matplotlib inline
-#plt.style.use('ggplot')
-
 knn = cv2.ml.KNearest_create()
 
 def start(sample_size=25) :
