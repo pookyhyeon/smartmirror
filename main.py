@@ -11,12 +11,11 @@ from imutils.video import VideoStream
 from imutils import face_utils
 from threading import Thread
 from threading import Timer
-from check_cam_fps import check_fps
-import make_train_data as mtd
+from camera_check import check_fps
+import traindata as mtd
 import light as lr
-import ringing_alarm as alarm
+import alarm as alarm
 import serial
-import ringing_alarm 
 
 
 def eye_aspect_ratio(eye) : # 눈을 통해 귀를 측정 
